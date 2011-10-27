@@ -6,6 +6,7 @@
 /config/initializers/session_store.rb
 /coverage
 /db/*.db
+/db/*.sqlite3
 /db/schema.rb
 /files/*
 /lib/redmine/scm/adapters/mercurial/redminehelper.pyc
@@ -14,7 +15,6 @@
 /log/mongrel_debug
 /public/dispatch.*
 /public/plugin_assets
-/tmp/*
 /tmp/cache/*
 /tmp/sessions/*
 /tmp/sockets/*

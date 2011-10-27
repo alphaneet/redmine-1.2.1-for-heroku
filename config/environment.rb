@@ -20,10 +20,9 @@ end
 Rails::Initializer.run do |config|
   config.action_controller.session = { 
     :key => "_myapp_session", 
-    :secret => "cdasij32oijqiodacsoijadj3djaciojsadicjasio3"
+    :secret => "ruby -e "c=('a'..'z').to_a+('A'..'Z').to_a+('0'..'9').to_a;puts Array.new(48){c[rand(c.size)]}.join" で表示された文字列を貼り付ける"
   }
   # Settings in config/environments/* take precedence those specified here
-  
   # Skip frameworks you're not going to use
   # config.frameworks -= [ :action_web_service, :action_mailer ]
 

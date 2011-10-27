@@ -27,6 +27,7 @@ module TreeNodePatch
       def initialize(name, content = nil)
         old_initilize(name, content)
         @last_items_count = 0
+        @childrenHash ||= {}
         extend(InstanceMethods)
       end
     end
